@@ -177,7 +177,7 @@ def k_nearest_neighbours(dataset_location, neighbors=5):
     # In[27]:
 
 
-    print("------ CLASSIFICATION PERFORMANCE OF THE NAIVE BAYES MODEL ------ "      "\n Recall : ", (recall*100) ,"%"       "\n Precision : ", (precision*100) ,"%"       "\n Accuracy : ", (accuracy*100) ,"%"       "\n F-measure : ", (fmeasure*100) ,"%" )
+    print("------ CLASSIFICATION PERFORMANCE OF THE K-NEAREST-NEIGHBORS MODEL ------ "      "\n Recall : ", (recall*100) ,"%"       "\n Precision : ", (precision*100) ,"%"       "\n Accuracy : ", (accuracy*100) ,"%"       "\n F-measure : ", (fmeasure*100) ,"%" )
 
 if __name__ == "__main__":
     k_nearest_neighbours('data/twitter_dataset.csv',5)

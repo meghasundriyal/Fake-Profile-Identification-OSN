@@ -3,7 +3,7 @@
 
 # In[1]:
 
-def support_vertor_machine(dataset_location):
+def support_vector_machine(dataset_location):
     import pandas as pd
     import numpy as np
     from sklearn.svm import SVC
@@ -179,4 +179,4 @@ def support_vertor_machine(dataset_location):
     print("------ CLASSIFICATION PERFORMANCE OF THE SVM MODEL ------ "      "\n Recall : ", (recall*100) ,"%"       "\n Precision : ", (precision*100) ,"%"       "\n Accuracy : ", (accuracy*100) ,"%"       "\n F-measure : ", (fmeasure*100) ,"%" )
 
 if __name__ == "__main__":
-    support_vertor_machine('data/twitter_dataset.csv')
+    support_vector_machine('data/twitter_dataset.csv')

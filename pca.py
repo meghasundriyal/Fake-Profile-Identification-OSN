@@ -41,7 +41,7 @@ def pca(dataset_location,new_dataset_name,number_of_components=4):
     principalDf = pd.DataFrame(data = principalComponents
                 , columns = column_names)
 
-
+    principalDf['label']=y
     # In[17]:
 
 
