@@ -24,7 +24,9 @@ def k_nearest_neighbours(dataset_location, neighbors=5):
 
     #Combinig attributes into single list of tuples and using those features create a 2D matrix 
 
-    data = dataset.values
+    features = ['name_wt','statuses_count', 'followers_count', 'friends_count','favourites_count','listed_count']
+    data = dataset.as_matrix(columns = features)
+
 
 
     # In[ ]:
