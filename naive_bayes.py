@@ -23,7 +23,9 @@ def naive_bayes(dataset_location):
 
     #Combinig attributes into single list of tuples and using those features create a 2D matrix 
 
-    data = dataset.values
+    features = ['name_wt','statuses_count', 'followers_count', 'friends_count','favourites_count','listed_count']
+    data = dataset.as_matrix(columns = features)
+
 
 
     # In[ ]:
@@ -177,5 +179,5 @@ def naive_bayes(dataset_location):
 
     print("------ CLASSIFICATION PERFORMANCE OF THE NAIVE BAYES MODEL ------ "      "\n Recall : ", (recall*100) ,"%"       "\n Precision : ", (precision*100) ,"%"       "\n Accuracy : ", (accuracy*100) ,"%"       "\n F-measure : ", (fmeasure*100) ,"%" )
 if __name__ == "__main__":
-    naive_bayes('data/twitter_dataset.csv')
+    naive_bayes('data/twitter_dataset2.csv')
     

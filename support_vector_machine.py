@@ -24,7 +24,8 @@ def support_vector_machine(dataset_location):
     #Combinig attributes into single list of tuples and using those features create a 2D matrix 
 
     # features = ['name_wt','statuses_count', 'followers_count', 'friends_count','favourites_count','listed_count']
-    data = dataset.values
+    features = ['name_wt','statuses_count', 'followers_count', 'friends_count','favourites_count','listed_count']
+    data = dataset.as_matrix(columns = features)
 
 
     # In[ ]:
