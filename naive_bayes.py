@@ -179,5 +179,5 @@ def naive_bayes(dataset_location):
 
     print("------ CLASSIFICATION PERFORMANCE OF THE NAIVE BAYES MODEL ------ "      "\n Recall : ", (recall*100) ,"%"       "\n Precision : ", (precision*100) ,"%"       "\n Accuracy : ", (accuracy*100) ,"%"       "\n F-measure : ", (fmeasure*100) ,"%" )
 if __name__ == "__main__":
-    naive_bayes('data/twitter_dataset2.csv')
+    naive_bayes('data/twitter_dataset.csv')
     
