@@ -1,0 +1,21 @@
+*validate number of clusters using agglomerative - when we are applying HAC dendogram is clearly shows 2 clusters
+*unsupervised learning to validate class labels using k means
+*hypertuning of kNN and ANN
+*make table for ANN - activation function,no of hidden layers,number of units in each hidden layer
+*to apply and evaluate 6 supervised learning algorithms
+*-naive bayes
+*-rochio
+*-SVM
+*-Decision Tree - kfold for overfitting problem
+*-KNN
+*-ANN
+*accuracy, recall , percision, fmeasure
+
+*bar graph- algorithm * accuraccy
+*bar graph- algorithm * precision
+*bar graph- algorithm * recall
+*bar graph- algorithm * fmeasure
+
+*combined model
+*top 3
+*metric of new model
