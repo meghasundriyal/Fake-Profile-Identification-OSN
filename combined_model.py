@@ -54,7 +54,7 @@ fmeasure = (2*recall*precision)/(recall+precision)
 
 accuracy = (TP + TN)/(TN + FN + FP + TP)
 
-print("------ CLASSIFICATION PERFORMANCE OF THE SVM MODEL ------ "\
+print("------ CLASSIFICATION PERFORMANCE OF THE COMBINED MODEL ------ "\
       "\n Recall : ", (recall*100) ,"%" \
       "\n Precision : ", (precision*100) ,"%" \
       "\n Accuracy : ", (accuracy*100) ,"%" \
