@@ -42,7 +42,7 @@ sudo pip install keras
 pip install tweepy
 ```
 7. Install JSON Library.
-8. Install pylab 0.0.2
+8. Install pylab 0.0.2 (refer to https://pypi.org/project/pylab/)
 ```
 pip install pylab==0.0.2
 ```
