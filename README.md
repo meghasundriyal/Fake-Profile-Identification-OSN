@@ -86,6 +86,6 @@ The top three algorithms which gives the highest levels of performance are re-co
 
 This is to certify that the minor project work entitled “Fake Profile Identification on Online Social Network” has been carried out by **[Megha Sundriyal](https://github.com/meghasundriyal)**  and **[Abhishek Sen](https://github.com/abhisheksen999)** at the Department of Computer Science, University of Delhi under the supervision of Prof. Punam Bedi. This work has been carried out for the partial fulfillment of the requirements of M.Sc. degree in the Department of Computer Science, University of Delhi. This project has not been submitted anywhere else for any other degree or diploma. 
 
-This research work can be reused only for further research by referencing this reposiry and acknowledging the Authors.
+This research work can be reused only for further research by referencing this repository and acknowledging the Authors.
 
 
