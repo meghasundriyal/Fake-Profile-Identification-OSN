@@ -48,37 +48,37 @@ pip install pylab==0.0.2
 ```
 
 ### Understanding the Contents of the Repository
-1. data_prepocessing.ipynb : Run each cell to preprocess the dataset acquired. The desired attributes for the supervised and unsupervised learning models will be extracted in a file "/data/twitter_dataset.csv"
+1. [data_prepocessing.ipynb](data_prepocessing.ipynb) : Run each cell to preprocess the dataset acquired. The desired attributes for the supervised and unsupervised learning models will be extracted in a file "/data/twitter_dataset.csv"
 
-2. artificial_neural_network.ipynb : Testing Artificial Neural Network on the acquired dataset and tuning of the hyper-parameters is done based on experimentation and its performance is measured.
+2. [artificial_neural_network.ipynb](artificial_neural_network.ipynb) : Testing Artificial Neural Network on the acquired dataset and tuning of the hyper-parameters is done based on experimentation and its performance is measured.
 
-3. decision_tree.ipynb : Decision Tree classifier is applied on the acquired dataset to test it's performance.
+3. [decision_tree.ipynb](decision_tree.ipynb) : Decision Tree classifier is applied on the acquired dataset to test it's performance.
 
-4. decision_tree_k_fold.ipynb : K_fold cross validation is done on the decision tree model to validate the results.
+4. [decision_tree_k_fold.ipynb](decision_tree_k_fold.ipynb) : K_fold cross validation is done on the decision tree model to validate the results.
 
-5. hierarchical_agglomerative_clustering : The labels of the labeled data is removed and HAC is applied to check the presence of the desired clusters in dendogram.
+5. [hierarchical_agglomerative_clustering.ipynb](hierarchical_agglomerative_clustering.ipynb) : The labels of the labeled data is removed and HAC is applied to check the presence of the desired clusters in dendogram.
 
-6. k_means_clustering : The labels of the labeled data is removed. PCA is applied to  reduce to two dimentionality. Visualization is done to check presence of clusters and performance of K means Clustering is checked.
+6. [k_means_clustering.ipynb](k_means_clustering.ipynb) : The labels of the labeled data is removed. PCA is applied to  reduce to two dimentionality. Visualization is done to check presence of clusters and performance of K means Clustering is checked.
 
-7. k_nearest_neighbors.ipynb : K_nearest-neighbors is applied on the acquired data to check it's performance.
+7. [k_nearest_neighbors.ipynb](k_nearest_neighbors.ipynb) : K_nearest-neighbors is applied on the acquired data to check it's performance.
 
-8. naive_bayes_classifier.ipynb : K_nearest-neighbors is applied on the acquired data to check it's performance.
+8. [naive_bayes_classifier.ipynb](naive_bayes_classifier.ipynb) : K_nearest-neighbors is applied on the acquired data to check it's performance.
 
-9. rocchio_classifier.ipynb : Rocchio classifier is applied on the acquired dataset to check its performance.
+9. [rocchio_classifier.ipynb](rocchio_classifier.ipynb) : Rocchio classifier is applied on the acquired dataset to check its performance.
 
-10. support_vector_machine.ipynb : Support Vector Machine is applied on the acquired dataset to check its performance.
+10. [support_vector_machine.ipynb](support_vector_machine.ipynb) : Support Vector Machine is applied on the acquired dataset to check its performance.
 
 The top three algorithms which gives the highest levels of performance are re-coded to form a Hybrid model.
 
-11. decision_tree.py : Decision tree is re-coded in py script as a part of hybrid model.
+11. [decision_tree.py](decision_tree.py) : Decision tree is re-coded in py script as a part of hybrid model.
 
-12. k_nearest_neighbors.py : K Nearest Neighbors is re-coded in py as a part of hybrid model.
+12. [k_nearest_neighbors.py](k_nearest_neighbors.py) : K Nearest Neighbors is re-coded in py as a part of hybrid model.
 
-13. neural_network.py : Artificial Neural Network is recoded in py script as a part of hybrid model
+13. [neural_network.py](neural_network.py) : Artificial Neural Network is recoded in py script as a part of hybrid model
 
-14. hybrid_model : The Hybrid Model created using the above three algorithms is tested and its performance is checked on the acquired dataset.
+14. [hybrid_model.py](hybrid_model.py) : The Hybrid Model created using the above three algorithms is tested and its performance is checked on the acquired dataset.
 
-15. Fake_Profile_Identifier.ipynb : Based on the above created Hybrid Model. this is the final identifier. Run each cell to take the screen_name of a profile as input , collect the desired features from Twitter using Twitter API and predict whether profile is Genuine or Fake.
+15. [Fake_Profile_Identifier.ipynb](Fake_Profile_Identifier.ipynb) : Based on the above created Hybrid Model. this is the final identifier. Run each cell to take the screen_name of a profile as input , collect the desired features from Twitter using Twitter API and predict whether profile is Genuine or Fake.
 
 
 
